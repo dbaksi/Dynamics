@@ -146,6 +146,8 @@ for ev in evals:
     print("\t", ev)
 print
 
+#Standard ODE integration
+
 def integrate(y0, tSpan, dt, update=None, callback=None, maxInnerSteps=10000):
     '''
     Integrate a set of first order differential equation. This function acts
